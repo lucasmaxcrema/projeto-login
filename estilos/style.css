@@ -33,21 +33,23 @@ section#login {
 
     background-color: white;
     width: 250px;
-    height: 550px;
+    height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.43);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/metal.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: left bottom;
     height: 200px;
 }
 
 section#login > div#formulario {
-    padding-left: 10px;
+    padding: 10px;
     display: block;
 }
